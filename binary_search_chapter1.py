@@ -13,6 +13,4 @@ def binary_search(arr, item):
         else:
             low = mid + 1
     return None
-my_list = [1, 3, 5, 7, 9]
-print(len(my_list))
-print(binary_search(my_list, 3))
+print(binary_search([int(i)for i in input().split()],int(input())))
